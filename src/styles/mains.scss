@@ -1,3 +1,17 @@
+@use "./include-media" as *;
+@use "./card" as *;
+@use "./navbar" as *;
+@use "./header" as *;
+@use "./work" as *;
+@use "./about" as *;
+@use "./skills" as *;
+@use "./footer" as *;
+@use "./projects" as *;
+@use "./education" as *;
+@use "./languageToggle" as *;
+@use "../css/resume" as *;
+@use "../css/worksiteStyle" as *;
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
 
 /* CRITICAL: Ensure Google Fonts load and override everything */
@@ -17,25 +31,6 @@ html[dir="ltr"] {
   direction: ltr;
   text-align: left;
 }
-
-@import "./include-media.scss";
-
-// Atoms
-@import "./card.scss";
-
-// Components
-@import "./navbar.scss";
-@import "./header.scss";
-@import "./work.scss";
-@import "./about.scss";
-@import "./skills.scss";
-@import "./footer.scss";
-@import "./projects.scss";
-@import "./education.scss";
-@import "./languageToggle.scss";
-@import "./../css/resume.scss";
-@import "./../css/worksiteStyle.scss";
-
 
 * {
   margin: 0;

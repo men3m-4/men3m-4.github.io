@@ -23,6 +23,7 @@ import RGS from "./images/company/RGS.jpg"
 import TeslaImg from "./images/workPhotos/codeten.gif"
 import IsaacSim from "./images/workPhotos/tigermarine.gif"
 import uwaterloo from "./images/workPhotos/robotic arm.png"
+import neutrinoGif from "./images/workPhotos/neutrino.gif"
 
 // School images
 import WaterlooLogo from "./images/school/ERU.png"
@@ -210,6 +211,7 @@ const siteData = {
       },
 
       imageSrc: neutrino,
+      workImg: neutrinoGif,
 
       url: "/work/ecobee/",
 
@@ -229,8 +231,6 @@ const siteData = {
           ar: "التحقق من المحاكاة والمساهمة في اختبار الحقل في العالم الحقيقي للتحقق من وظائف النظام والأداء",
         },
       ],
-
-      workImg: RGS,
     },
     {
       title: {
@@ -271,11 +271,6 @@ const siteData = {
     },
   ],
 
-  // About Section --------------
-  aboutParaOne: {
-    en: "Highly motivated Mechatronics and Robotics Engineer with hands-on experience in robotics, robotic arms, electric and autonomous vehicles, automotive systems, electronics, and industrial automation. Proficient in ROS/ROS2, MATLAB Simulink, control systems, sensor fusion, and real-time control, with strong capabilities in system integration, troubleshooting, and technical problem-solving.",
-    ar: "مهندس ميكاترونكس وروبوتات متحمس للغاية مع خبرة عملية في الروبوتات والأذرع الروبوتية والمركبات الكهربائية والمستقلة وأنظمة السيارات والإلكترونيات والأتمتة الصناعية. يتمتع بكفاءة في ROS/ROS2 و MATLAB Simulink وأنظمة التحكم ودمج المستشعرات والتحكم في الوقت الفعلي، مع إمكانيات قوية في تكامل النظام واستكشاف الأخطاء وحل المشاكل التقنية.",
-  },
   aboutParaTwo: {
     en: "Experienced in robotics and autonomous vehicle systems, electric vehicle systems, and marine manufacturing, as well as installation, maintenance, and preventive servicing of medical equipment. I deliver reliable, safe, and innovative engineering solutions that combine mechanical, electrical, and electronic expertise.",
     ar: "خبرة في أنظمة الروبوتات والمركبات المستقلة وأنظمة المركبات الكهربائية والتصنيع البحري، وكذلك التثبيت والصيانة والصيانة الوقائية للمعدات الطبية. أوفر حلول هندسية موثوقة وآمنة ومبتكرة تجمع بين الخبرة الميكانيكية والكهربائية والإلكترونية.",

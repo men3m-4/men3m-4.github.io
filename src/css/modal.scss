@@ -1,4 +1,4 @@
-@import "./../styles/include-media.scss";
+@use "../styles/include-media" as *;
 
 /* This class will be added to the body when modal is open */
 body.modal-open {

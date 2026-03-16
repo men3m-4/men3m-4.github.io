@@ -1,13 +1,15 @@
 module.exports = {
-  // Remove pathPrefix for custom domain setup
+  pathPrefix: "/",
   siteMetadata: {
     title: `Hi, I'm Mohamed Abdelmonem`,
     description: `Mechatronics and Robotics Engineer Portfolio`,
     author: `Muhammad Abdelmoniem`,
   },
-  // Add development-specific configuration
   flags: {
     FAST_DEV: true,
+    DEV_SSR: true,
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
+    PARALLEL_SOURCING: true,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,7 +31,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `./src/images/SelfPhoto4.jpeg`, // This path is relative to the root of the site.
+        icon: `./src/images/SelfPhoto4.jpeg`,
       },
     },
     `gatsby-plugin-sass`,
@@ -37,14 +39,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        // Use environment variable for security
         trackingId: process.env.GATSBY_GA_MEASUREMENT_ID,
         head: false,
         anonymize: true,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
 }

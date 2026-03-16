@@ -1,3 +1,5 @@
+@use "include-media" as *;
+
 .navbar-wrapper {
   position: sticky; /* Stick to top when scrolling */
   top: 0; /* Stick to very top */

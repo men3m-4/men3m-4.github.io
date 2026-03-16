@@ -93,21 +93,25 @@ const Header = () => {
                         words={
                           language === "ar"
                             ? [
-                                "مهندس روبوتات",
-                                "مهندس ابتكار",
-                                "مهندس تكامل الأنظمة",
-                                " مُجدّد حلول",
-                                "مهندس حلول",
-                                "باني الأنظمة",
-                              ]
-                            : [
-                                "Robotics Engineer",
-                                "Innovation Engineer",
-                                "Systems Integration Engineer",
-                                "Problem Solver",
-                                "Solutions Engineer",
-                                "Systems Builder",
-                              ]
+      "مهندس روبوتات",
+      "مهندس ميكاترونكس",
+      "مهندس أنظمة ذاتية",
+      "مهندس تكامل الأنظمة",
+      "مهندس ابتكار",
+      "مهندس تصميم",
+      "مهندس حلول",
+      "باني الأنظمة",
+    ]
+  : [
+      "Robotics Engineer",
+      "Mechatronics Engineer",
+      "Autonomous Systems Engineer",
+      "Systems Integration Engineer",
+      "Innovation Engineer",
+      "Design Engineer",
+      "Solutions Engineer",
+      "Systems Builder",
+    ]
                         }
                       />
                     </span>
@@ -172,21 +176,25 @@ const Header = () => {
                     words={
                       language === "ar"
                         ? [
-                            "مهندس روبوتات",
-                            "مهندس ابتكار",
-                            "مهندس تكامل الأنظمة",
-                            "مقدم حلول",
-                            "مهندس حلول",
-                            "باني الأنظمة",
-                          ]
-                        : [
-                            "Robotics Engineer",
-                            "Innovation Engineer",
-                            "Systems Integration Engineer",
-                            "Problem Solver",
-                            "Solutions Engineer",
-                            "Systems Builder",
-                          ]
+      "مهندس روبوتات",
+      "مهندس ميكاترونكس",
+      "مهندس أنظمة ذاتية",
+      "مهندس تكامل الأنظمة",
+      "مهندس ابتكار",
+      "مهندس تصميم",
+      "مهندس حلول",
+      "باني الأنظمة",
+    ]
+  : [
+      "Robotics Engineer",
+      "Mechatronics Engineer",
+      "Autonomous Systems Engineer",
+      "Systems Integration Engineer",
+      "Innovation Engineer",
+      "Design Engineer",
+      "Solutions Engineer",
+      "Systems Builder",
+    ]
                     }
                   />
                 </span>
